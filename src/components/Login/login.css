@@ -1,0 +1,27 @@
+.white-background {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    margin: 10px 120px 0px 100px;
+    padding: 50px 100px;
+    text-align: center;
+    color: black
+}
+
+.card-style {
+    width: 50%;
+    color: black;
+    padding: 20px;
+    margin: auto;
+}
+
+.sign-in-with {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 40%;
+    border-radius: 25px;
+}
+
+.sign-in-with img {
+    width: 30px;
+}

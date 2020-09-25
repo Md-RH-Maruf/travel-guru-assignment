@@ -1,0 +1,26 @@
+.hotel-card {
+    color: black;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    width: auto;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    text-align: left;
+    /* position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+     */
+}
+
+.hotel-image {
+    width: 250px;
+}
+
+.rating-icon {
+    width: 15px;
+}

@@ -1,38 +1,41 @@
 .App {
   text-align: center;
+  
+  width: 100%;
+  height: 1100px;
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.min-height{
+  min-height: fit-content;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imageBackground{
+  background-image: url("./images/sea-beach.png");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-attachment: fixed;
+  height: 100%; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.colorBackground{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8);
+  
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  color : white;
 }
 
-.App-link {
-  color: #61dafb;
+.commonButton{
+  background-color: #F9A51A;
+  border: 1px solid #865f07;
+  border-radius: 10px;
+  color: black;
+  padding : 2px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
